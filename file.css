@@ -1,0 +1,53 @@
+html{
+	background:url(image/1.jpg) fixed no-repeat center center wheat;
+
+	background-size:700px 400px;
+
+}
+
+html:hover{
+	background:url(image/3.jpg) fixed no-repeat center center black;
+	background-size:700px 400px;
+
+}
+body{
+	text-indent:40px;
+
+
+}
+h1{
+	color:red;
+	font-size=30px;
+	text-align:center;
+	text-transform:capitalize;
+
+
+
+}
+p{
+	color:wheat;
+	font-size:20px;
+	text-align:center;
+	text-transform:uppercase;
+
+
+}
+
+p:hover{
+	color:black;
+	text-align:left;
+	text-decoration:underline;
+
+}
+a{
+	text-indent:50px;
+	color:black;
+	text-align:center;
+
+}       
+a:hover{
+
+	text-indent:50px;
+	color:black;
+	text-align:center;
+}

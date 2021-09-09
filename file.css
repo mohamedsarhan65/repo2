@@ -1,50 +1,78 @@
 html{
 	background:url(image/1.jpg) fixed no-repeat center center wheat;
-
 	background-size:700px 400px;
-
 }
 
-html:hover{
-	background:url(image/3.jpg) fixed no-repeat center center black;
-	background-size:700px 400px;
-
-}
 body{
 	text-indent:40px;
-
-
 }
+
 h1{
 	color:red;
 	font-size=30px;
 	text-align:center;
 	text-transform:capitalize;
-
-
-
-
-
-
+	font-family:"cursive";
+	font-style:italic;
 }
+
 p{
-	color:wheat;
-	font-size:20px;
+	color:red;
 	text-align:center;
-	text-transform:uppercase;
-
-
+	text-transform:capitalize;
+	font:italic bolder 40px/50px cursive;
 }
 
+p.new {
+	color:red;
+	font-family:cursive;"Arial","Time New Roman","Comic Sans MS";
+	font-style:italic;
+	font-size:30px;
+	font-weight:lighter;
+}
+
+span.new{
+	color:red;
+	font-family:"Arial","Time New Roman","Comic Sans MS";
+	font-style:italic;
+	font-size:x-large;
+}
+
+/*
 p:hover{
-	color:black;
-	text-align:left;
-	text-decoration:underline;
-
+color:red;
+text-align:left;
+text-decoration:underline;
+text-transform:capitalize;
 }
-a{
-	text-indent:50px;
-	color:black;
-	text-align:center;
+ */
+	a{
+		text-indent:50px;
+		color:black;
+		text-align:center;
+	}
 
-}       
+	a:hover{
+		color:red;
+		text-decoration:line-through;
+		font-size:bold;
+	}
+
+	a:active{
+		color:green;
+		text-decoration:overline;
+		font-size:800px;
+	}
+
+	ul{
+		list-style-type:hiragana;
+		list-style-position:outside;
+		list-style-image:url(image/12.jpg);	
+		padding:20px;
+		list-style:disc inside none;
+
+	}
+	ul li{
+		border:2px solid red;
+
+	}

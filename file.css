@@ -1,13 +1,16 @@
 html{
+
 	background:url(image/1.jpg) fixed no-repeat center center wheat;
 	background-size:700px 400px;
 }
 
 body{
+
 	text-indent:40px;
 }
 
 h1{
+
 	color:red;
 	font-size=30px;
 	text-align:center;
@@ -17,6 +20,7 @@ h1{
 }
 
 p{
+
 	color:red;
 	text-align:center;
 	text-transform:capitalize;
@@ -24,6 +28,7 @@ p{
 }
 
 p.new {
+
 	color:red;
 	font-family:cursive;"Arial","Time New Roman","Comic Sans MS";
 	font-style:italic;
@@ -32,39 +37,37 @@ p.new {
 }
 
 span.new{
+
 	color:red;
 	font-family:"Arial","Time New Roman","Comic Sans MS";
 	font-style:italic;
 	font-size:x-large;
 }
 
-/*
-p:hover{
-color:red;
-text-align:left;
-text-decoration:underline;
-text-transform:capitalize;
-}
- */
+/* p:hover{ color:red; text-align:left; text-decoration:underline; text-transform:capitalize; } */
 	a{
+
 		text-indent:50px;
 		color:black;
 		text-align:center;
 	}
 
 	a:hover{
+
 		color:red;
 		text-decoration:line-through;
 		font-size:bold;
 	}
 
 	a:active{
+
 		color:green;
 		text-decoration:overline;
 		font-size:800px;
 	}
 
 	ul{
+
 		list-style-type:hiragana;
 		list-style-position:outside;
 		list-style-image:url(image/12.jpg);	
@@ -73,6 +76,7 @@ text-transform:capitalize;
 
 	}
 	ul li{
+
 		border:2px solid red;
 
 	}
